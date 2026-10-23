@@ -1,0 +1,23 @@
+{
+  "assertions": "passed",
+  "requestHosts": [
+    "127.0.0.1:4000"
+  ],
+  "externalLinks": [
+    {
+      "text": "shadcn/ui",
+      "href": "https://ui.shadcn.com"
+    },
+    {
+      "text": "Cult UI",
+      "href": "https://www.cult-ui.com"
+    }
+  ],
+  "focus": {
+    "element": "SUMMARY",
+    "outline": "rgb(23, 23, 19) solid 2px",
+    "outlineColor": "rgb(23, 23, 19)",
+    "sectionBackground": "rgb(239, 233, 220)",
+    "contrast": 14.857297475731956
+  }
+}

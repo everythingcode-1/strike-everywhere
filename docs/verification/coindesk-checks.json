@@ -1,0 +1,433 @@
+{
+  "title": "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves",
+  "highlights": 28,
+  "highlightSymbols": [
+    "XRP",
+    "BTC",
+    "ETH",
+    "XRP",
+    "XRP",
+    "SOL",
+    "SOL",
+    "CRCL",
+    "BTC",
+    "BTC",
+    "ETH",
+    "ETH",
+    "XRP",
+    "XRP",
+    "SOL",
+    "SOL",
+    "BTC",
+    "XRP",
+    "ZEC",
+    "XRP",
+    "SOL",
+    "BNB",
+    "BTC",
+    "XRP",
+    "BTC",
+    "ETH",
+    "XRP",
+    "SOL"
+  ],
+  "btc": [
+    {
+      "tag": "NOSCRIPT",
+      "highlight": null,
+      "ancestors": [
+        {
+          "tag": "NOSCRIPT",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "temp_prefix_lg:justify-unset flex h-full items-center temp_prefix_lg:hidden"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "cd-nav-bar relative mx-auto flex w-full h-14 temp_prefix_lg:h-[72px] items-center justify-between p-0 temp_prefix_lg:px-6 temp_prefix_lg:py-4 z-[1]"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "border-b border-solid border-default"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "bg-fill-strong"
+        },
+        {
+          "tag": "HEADER",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "bg-fill-strong relative temp_prefix_lg:z-[102] temp_prefix_xl:sticky temp_prefix_xl:top-[var(--billboard-nav-offset,0px)] transition-opacity ease-in-out duration-250"
+        }
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "display": "inline",
+      "decoration": "none"
+    },
+    {
+      "tag": "SPAN",
+      "highlight": "BTC",
+      "ancestors": [
+        {
+          "tag": "SPAN",
+          "role": "button",
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "SPAN",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "font-sans font-normal text-sm text-default font-metadata-lg text-default py-1"
+        },
+        {
+          "tag": "A",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "hover:underline flex cursor-pointer flex-col"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col gap-2 px-2"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col gap-3"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex w-1/2 cursor-pointer flex-col justify-between gap-[20px]"
+        }
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "display": "inline",
+      "decoration": "underline"
+    },
+    {
+      "tag": "SPAN",
+      "highlight": "BTC",
+      "ancestors": [
+        {
+          "tag": "SPAN",
+          "role": "button",
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "SPAN",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "font-medium mr-2"
+        },
+        {
+          "tag": "SPAN",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex items-center text-xs text-default whitespace-nowrap"
+        },
+        {
+          "tag": "A",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex shrink-0 items-center gap-1 rounded-full py-2 px-3 transition-colors bg-surface-default hover:bg-surface-subtle"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex items-center gap-3 justify-center m-auto py-3 pl-[10px] pr-[25px] lg:px-[25px]"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "bg-fill-default relative z-50 h-[65px] flex items-center overflow-x-auto border-b border-default lg:sticky lg:top-[var(--nav-height, 73px)] scrollbar-hide font-label"
+        }
+      ],
+      "rect": {
+        "x": 387.3125,
+        "y": 377,
+        "width": 24.71875,
+        "height": 15
+      },
+      "display": "inline",
+      "decoration": "underline"
+    },
+    {
+      "tag": "SPAN",
+      "highlight": "BTC",
+      "ancestors": [
+        {
+          "tag": "SPAN",
+          "role": "button",
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "SPAN",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "sr-only"
+        },
+        {
+          "tag": "SPAN",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "relative flex items-center text-xs font-medium gap-1 text-neg"
+        },
+        {
+          "tag": "A",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex shrink-0 items-center gap-1 rounded-full py-2 px-3 transition-colors bg-surface-default hover:bg-surface-subtle"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex items-center gap-3 justify-center m-auto py-3 pl-[10px] pr-[25px] lg:px-[25px]"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "bg-fill-default relative z-50 h-[65px] flex items-center overflow-x-auto border-b border-default lg:sticky lg:top-[var(--nav-height, 73px)] scrollbar-hide font-label"
+        }
+      ],
+      "rect": {
+        "x": 492.234375,
+        "y": 388.5,
+        "width": 24.71875,
+        "height": 15
+      },
+      "display": "inline",
+      "decoration": "underline"
+    },
+    {
+      "tag": "SPAN",
+      "highlight": "BTC",
+      "ancestors": [
+        {
+          "tag": "SPAN",
+          "role": "button",
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "H2",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "font-sans text-default text-base leading-6 tracking-normal font-normal mt-4 lg:mt-2"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col h-full justify-between"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "article-content-wrapper flex flex-col row-start-2 mb-4 empty:hidden"
+        }
+      ],
+      "rect": {
+        "x": 124,
+        "y": 622,
+        "width": 32.5,
+        "height": 20
+      },
+      "display": "inline",
+      "decoration": "underline"
+    },
+    {
+      "tag": "SPAN",
+      "highlight": "BTC",
+      "ancestors": [
+        {
+          "tag": "SPAN",
+          "role": "button",
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "SPAN",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "font-headline-2xs font-medium text-default hover:underline"
+        },
+        {
+          "tag": "A",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex-1 min-w-0"
+        },
+        {
+          "tag": "LI",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex gap-4 py-6 border-b border-default last:border-none"
+        },
+        {
+          "tag": "OL",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        }
+      ],
+      "rect": {
+        "x": 180,
+        "y": 3804.5,
+        "width": 38.90625,
+        "height": 22
+      },
+      "display": "inline",
+      "decoration": "underline"
+    },
+    {
+      "tag": "SPAN",
+      "highlight": "BTC",
+      "ancestors": [
+        {
+          "tag": "SPAN",
+          "role": "button",
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        },
+        {
+          "tag": "A",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "font-sans font-metadata text-subtle cursor-pointer hover:underline"
+        },
+        {
+          "tag": "LI",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "font-metadata"
+        },
+        {
+          "tag": "UL",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col gap-2"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": "flex flex-col gap-4"
+        },
+        {
+          "tag": "DIV",
+          "role": null,
+          "hidden": false,
+          "editable": null,
+          "class": ""
+        }
+      ],
+      "rect": {
+        "x": 577.296875,
+        "y": 4841.5,
+        "width": 25.578125,
+        "height": 15
+      },
+      "display": "inline",
+      "decoration": "underline"
+    }
+  ],
+  "status": 200,
+  "pageErrorCount": 0,
+  "articleBtcHighlighted": true,
+  "cardReady": true,
+  "activeSource": "Mainnet market data"
+}

@@ -1,0 +1,13 @@
+{
+  "fixture": "Synthetic responses for deterministic UI behavior; not a Strike ground-truth test.",
+  "checks": [
+    "Enabling after a disabled page load starts detection without reloading",
+    "Disabling during hover intent cancels the pending card and market request",
+    "news: two highlights; no layout shift; CSS isolation; closed shadow; keyboard; all card states",
+    "forum: two highlights; no layout shift; CSS isolation; closed shadow; keyboard; all card states",
+    "research: two highlights; no layout shift; CSS isolation; closed shadow; keyboard; all card states",
+    "Simulator: explicit assumptions, form refresh, stale-response rejection, Escape",
+    "Side panel: market view switching, market links, settings disclosure/persistence, refresh error state, 320px layout"
+  ],
+  "uncaughtErrors": []
+}

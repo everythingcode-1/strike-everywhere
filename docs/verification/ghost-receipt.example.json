@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "receipt_78f62ddb-e0d6-43cd-9682-e267b173e1fe",
+  "tradeId": "78f62ddb-e0d6-43cd-9682-e267b173e1fe",
+  "exportedAt": 1792736145436,
+  "claimSnapshot": null,
+  "originalDecision": {
+    "symbol": "BTC-USD",
+    "quoteAsset": "USDT",
+    "side": "long",
+    "inputMode": "collateral",
+    "allocatedCollateral": "20",
+    "requestedNotional": "40",
+    "leverage": 2
+  },
+  "entryEvidence": {
+    "id": "44195158-dba2-47ea-b02e-14091ab1060a",
+    "symbol": "BTC-USD",
+    "quoteAsset": "USDT",
+    "markPrice": "81768.23819811",
+    "indexPrice": "81798.89045949",
+    "fundingRate": "0.0000125000000000000",
+    "nextFundingAt": 1792738800000,
+    "bestBid": "81765",
+    "bestAsk": "81767",
+    "bookSourceTime": 1792736149037,
+    "markSourceTime": 1792736149048,
+    "receivedAt": 1792736144711,
+    "sourceEndpoints": [
+      "/price/v2/premiumIndex",
+      "/price/v2/depth",
+      "/price/v2/exchangeInfo"
+    ],
+    "dataQuality": "source-time",
+    "rulesVersion": "exchangeInfo-1",
+    "rules": {
+      "schemaVersion": 1,
+      "symbol": "BTC-USD",
+      "baseAsset": "BTC",
+      "quoteAsset": "USDT",
+      "contractType": "PERPETUAL",
+      "status": "trading",
+      "quotePrecision": 8,
+      "tickSize": "1",
+      "quantityStep": "0.00001",
+      "minQuantity": "0.00001",
+      "maxQuantity": "120",
+      "minNotional": "10",
+      "allowedOrderTypes": [
+        "LIMIT",
+        "MARKET",
+        "STOP",
+        "STOP_MARKET",
+        "TAKE_PROFIT",
+        "TAKE_PROFIT_MARKET"
+      ],
+      "source": "exchangeInfo-1",
+      "receivedAt": 1792736144375
+    },
+    "levels": [
+      {
+        "price": "81767",
+        "quantity": "0.00048"
+      }
+    ]
+  },
+  "entryFill": {
+    "price": "81767",
+    "quantity": "0.00048",
+    "notional": "39.24816",
+    "at": 1792736144713,
+    "entryFee": "0.01962408"
+  },
+  "exitEvidence": {
+    "id": "107b0d8f-8ac0-4872-bb27-9f5f20fa0a12",
+    "symbol": "BTC-USD",
+    "quoteAsset": "USDT",
+    "markPrice": "81769.29139824",
+    "indexPrice": "81799.95030774",
+    "fundingRate": "0.0000125000000000000",
+    "nextFundingAt": 1792738800000,
+    "bestBid": "81765",
+    "bestAsk": "81766",
+    "bookSourceTime": 1792736149622,
+    "markSourceTime": 1792736149620,
+    "receivedAt": 1792736145294,
+    "sourceEndpoints": [
+      "/price/v2/premiumIndex",
+      "/price/v2/depth",
+      "/price/v2/exchangeInfo"
+    ],
+    "dataQuality": "source-time",
+    "rulesVersion": "exchangeInfo-1",
+    "rules": {
+      "schemaVersion": 1,
+      "symbol": "BTC-USD",
+      "baseAsset": "BTC",
+      "quoteAsset": "USDT",
+      "contractType": "PERPETUAL",
+      "status": "trading",
+      "quotePrecision": 8,
+      "tickSize": "1",
+      "quantityStep": "0.00001",
+      "minQuantity": "0.00001",
+      "maxQuantity": "120",
+      "minNotional": "10",
+      "allowedOrderTypes": [
+        "LIMIT",
+        "MARKET",
+        "STOP",
+        "STOP_MARKET",
+        "TAKE_PROFIT",
+        "TAKE_PROFIT_MARKET"
+      ],
+      "source": "exchangeInfo-1",
+      "receivedAt": 1792736144375
+    },
+    "levels": [
+      {
+        "price": "81765",
+        "quantity": "0.00048"
+      }
+    ],
+    "exitSide": "bids"
+  },
+  "exitFill": {
+    "price": "81765",
+    "quantity": "0.00048",
+    "notional": "39.2472",
+    "at": 1792736145298,
+    "exitFee": "0.0196236"
+  },
+  "qualification": {
+    "mode": "live_virtual",
+    "realFunds": false,
+    "disclaimer": "Virtual trade — no real funds. Not a certificate of trading performance."
+  },
+  "observations": [],
+  "events": [
+    {
+      "id": "evt_78f62ddb-e0d6-43cd-9682-e267b173e1fe_created_1792736144713",
+      "tradeId": "78f62ddb-e0d6-43cd-9682-e267b173e1fe",
+      "eventType": "created",
+      "sourceTime": 1792736149048,
+      "observedAt": 1792736144713,
+      "price": "81767",
+      "quantity": "0.00048",
+      "fee": "0.01962408",
+      "fundingCashFlow": null,
+      "certainty": "observed",
+      "source": "strike:quote",
+      "metadata": {
+        "requestId": "fd5367d9-adb5-4043-b4db-145cb53807ea",
+        "bookSourceTime": "1792736149037",
+        "markSourceTime": "1792736149048",
+        "fillPolicy": "market_full_fill"
+      },
+      "calculationVersion": "ghost-1"
+    },
+    {
+      "id": "evt_78f62ddb-e0d6-43cd-9682-e267b173e1fe_close-requested_fb5010bc-d07a-4af6-9c08-7f4ec8d5a655",
+      "tradeId": "78f62ddb-e0d6-43cd-9682-e267b173e1fe",
+      "eventType": "close_requested",
+      "sourceTime": 1792736149622,
+      "observedAt": 1792736145298,
+      "price": "81765",
+      "quantity": "0.00048",
+      "fee": null,
+      "fundingCashFlow": null,
+      "certainty": "observed",
+      "source": "strike:depth",
+      "metadata": {
+        "requestId": "fb5010bc-d07a-4af6-9c08-7f4ec8d5a655",
+        "impactPct": "0",
+        "exitSide": "bids"
+      },
+      "calculationVersion": "ghost-1"
+    },
+    {
+      "id": "evt_78f62ddb-e0d6-43cd-9682-e267b173e1fe_closed_fb5010bc-d07a-4af6-9c08-7f4ec8d5a655",
+      "tradeId": "78f62ddb-e0d6-43cd-9682-e267b173e1fe",
+      "eventType": "closed_virtual",
+      "sourceTime": 1792736149622,
+      "observedAt": 1792736145298,
+      "price": "81765",
+      "quantity": "0.00048",
+      "fee": "0.0196236",
+      "fundingCashFlow": null,
+      "certainty": "observed",
+      "source": "strike:depth",
+      "metadata": {
+        "requestId": "fb5010bc-d07a-4af6-9c08-7f4ec8d5a655",
+        "impactPct": "0",
+        "exitSide": "bids"
+      },
+      "calculationVersion": "ghost-1"
+    }
+  ],
+  "outcome": {
+    "status": "closed",
+    "closed": true,
+    "summary": {
+      "priceUsed": "81765",
+      "sourceTime": 1792736149622,
+      "grossPnl": "-0.00096",
+      "entryFee": "0.01962408",
+      "exitFee": "0.0196236",
+      "fundingCashFlow": null,
+      "fundingStatus": "not_reconstructed",
+      "netExcludingUnknownFunding": "-0.04020768",
+      "roePct": "-0.2010384"
+    }
+  },
+  "costs": {
+    "entryFee": "0.01962408",
+    "exitFee": "0.0196236",
+    "fundingCashFlow": null,
+    "netExcludingUnknownFunding": "-0.04020768",
+    "basis": "realized_virtual_closed"
+  },
+  "assumptions": {
+    "feePolicy": {
+      "mode": "assumed",
+      "entryRate": "0.0005",
+      "exitRate": "0.0005"
+    },
+    "fundingPolicy": {
+      "mode": "not_reconstructed"
+    },
+    "fillPolicy": "market_full_fill",
+    "exitPolicy": "Virtual close is one full-fill market order. Entry minimums do not block a small close; the current per-order maximum does, and split closes are not supported.",
+    "liquidation": "Liquidation estimate unavailable — risk scenario only.",
+    "monitoring": "Observations are written when the panel boots or Refresh is pressed. Browser closure shows up as a gap only when the next refresh detects it; a shutdown shorter than the gap threshold is visible from the event timestamps.",
+    "privacy": "A captured claim keeps the page path without query, fragment or credentials. The panel shows only the source domain; the receipt includes the sanitized URL."
+  },
+  "dataQuality": {
+    "entry": "source-time",
+    "latest": "source-time",
+    "gaps": 0
+  },
+  "calculationVersion": "ghost-1"
+}

@@ -1,0 +1,26 @@
+﻿
+> strike-everywhere@0.1.0 build
+> vite build
+
+[36mvite v6.4.4 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 46 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mservice-worker-loader.js                   [39m[1m[2m 0.04 kB[22m[1m[22m
+[2mdist/[22m[32massets/index.ts-loader-BaXWMnMc.js         [39m[1m[2m 0.34 kB[22m[1m[22m
+[2mdist/[22m[32massets/icons/strike-everywhere-16.png      [39m[1m[2m 0.67 kB[22m[1m[22m
+[2mdist/[22m[32massets/strike-everywhere-32-BT6dw6s_.png   [39m[1m[2m 1.54 kB[22m[1m[22m
+[2mdist/[22m[32massets/icons/strike-everywhere-32.png      [39m[1m[2m 1.54 kB[22m[1m[22m
+[2mdist/[22m[32mmanifest.json                              [39m[1m[2m 1.63 kB[22m[1m[22m[2m Γöé gzip:  0.65 kB[22m
+[2mdist/[22m[32massets/icons/strike-everywhere-48.png      [39m[1m[2m 2.54 kB[22m[1m[22m
+[2mdist/[22m[32msrc/popup/index.html                       [39m[1m[2m10.59 kB[22m[1m[22m[2m Γöé gzip:  3.17 kB[22m
+[2mdist/[22m[32massets/strike-everywhere-128-CBNNkrip.png  [39m[1m[2m12.05 kB[22m[1m[22m
+[2mdist/[22m[32massets/icons/strike-everywhere-128.png     [39m[1m[2m12.05 kB[22m[1m[22m
+[2mdist/[22m[35massets/index-C11hZ1Yi.css                  [39m[1m[2m13.00 kB[22m[1m[22m[2m Γöé gzip:  3.05 kB[22m
+[2mdist/[22m[36massets/margin-BmgQgu_p.js                  [39m[1m[2m12.19 kB[22m[1m[22m[2m Γöé gzip:  4.03 kB[22m
+[2mdist/[22m[36massets/index.html-CL-w9QHG.js              [39m[1m[2m27.59 kB[22m[1m[22m[2m Γöé gzip:  9.19 kB[22m
+[2mdist/[22m[36massets/decimal-DUCnnpZd.js                 [39m[1m[2m32.91 kB[22m[1m[22m[2m Γöé gzip: 13.36 kB[22m
+[2mdist/[22m[36massets/index.ts-BW-HwPKt.js                [39m[1m[2m50.76 kB[22m[1m[22m[2m Γöé gzip: 16.88 kB[22m
+[2mdist/[22m[36massets/index.ts-CBVpZVBE.js                [39m[1m[2m64.39 kB[22m[1m[22m[2m Γöé gzip: 21.62 kB[22m
+[32mΓ£ô built in 981ms[39m

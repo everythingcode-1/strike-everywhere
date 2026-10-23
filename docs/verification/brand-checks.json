@@ -1,0 +1,55 @@
+{
+  "icons": {
+    "icons": [
+      {
+        "size": "16",
+        "path": "assets/icons/strike-everywhere-16.png",
+        "width": 16,
+        "height": 16
+      },
+      {
+        "size": "32",
+        "path": "assets/icons/strike-everywhere-32.png",
+        "width": 32,
+        "height": 32
+      },
+      {
+        "size": "48",
+        "path": "assets/icons/strike-everywhere-48.png",
+        "width": 48,
+        "height": 48
+      },
+      {
+        "size": "128",
+        "path": "assets/icons/strike-everywhere-128.png",
+        "width": 128,
+        "height": 128
+      }
+    ],
+    "action": {
+      "16": "assets/icons/strike-everywhere-16.png",
+      "32": "assets/icons/strike-everywhere-32.png"
+    }
+  },
+  "cardLogo": {
+    "width": 48,
+    "height": 48,
+    "inline": true
+  },
+  "simLogo": {
+    "width": 48,
+    "height": 48,
+    "inline": true
+  },
+  "sidebar": {
+    "imageLoaded": true,
+    "width": 320,
+    "horizontalOverflow": false
+  },
+  "diagnostics": {
+    "installWarnings": [],
+    "manifestErrors": [],
+    "runtimeErrors": []
+  },
+  "note": "Branding only; simulator document is a local fixture. No Ghost Trade or AI verification is claimed."
+}

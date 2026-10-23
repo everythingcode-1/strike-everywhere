@@ -1,0 +1,23 @@
+[
+  {
+    "name": "desktop",
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "name": "mobile",
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "name": "narrow",
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+
+> strike-everywhere@0.1.0 test
+> vitest run
+
+
+ RUN  v2.1.9 C:/Users/HP/strike-everywhere
+
+ ✓ tests/slippage.test.ts (8 tests) 15ms
+ ✓ tests/watchlist.test.ts (3 tests) 8ms
+ ✓ tests/market-extras.test.ts (8 tests) 12ms
+ ✓ tests/margin.test.ts (24 tests) 22ms
+ ✓ tests/ghost-market.test.ts (3 tests) 10ms
+ ✓ tests/ghost-accounting.test.ts (8 tests) 13ms
+ ✓ tests/ghost-execution.test.ts (11 tests) 17ms
+ ✓ tests/ghost-resolve.test.ts (7 tests) 10ms
+ ✓ tests/api.test.ts (6 tests) 679ms
+   ✓ public market data boundary > requests exactly 30 days of completed minutes in 29 bounded pages 662ms
+ ✓ tests/detect.test.ts (6 tests) 8ms
+ ✓ tests/presentation.test.ts (5 tests) 7ms
+ ✓ tests/jev-questions.test.ts (3 tests) 9ms
+ ✓ tests/replay.test.ts (16 tests) 1154ms
+   ✓ 30-day evidence > accepts exactly 43,200 consecutive completed one-minute candles 547ms
+   ✓ 30-day evidence > rejects missing, duplicate, stale and malformed candles 585ms
+ ✓ tests/ticket-reader.test.ts (4 tests) 8ms
+ ✓ tests/ghost-messages.test.ts (4 tests) 10ms
+ ✓ tests/background.test.ts (5 tests) 2289ms
+   ✓ simulation message integration > preserves entry slippage against a mark-anchored historical path 490ms
+   ✓ simulation message integration > keeps the core simulation available when optional market extras fail 367ms
+
+ Test Files  16 passed (16)
+      Tests  121 passed (121)
+   Start at  00:29:57
+   Duration  3.94s (transform 7.15s, setup 0ms, collect 9.54s, tests 4.27s, environment 5ms, prepare 6.13s)
+

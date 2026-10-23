@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-22T11:46:21.223Z",
+  "url": "https://api.strikefinance.org/price/v2/klines?symbol=TSLA-USD&interval=1m&priceType=mark&limit=1500&startTime=1790167560000&endTime=1790257559999",
+  "status": 200,
+  "invalidCandle": [
+    1790196300000,
+    "380.11238859",
+    "380.10360909",
+    "380.10360909",
+    "380.10360909",
+    "0.00000000",
+    1790196359999,
+    "0.00000000",
+    0,
+    "0",
+    "0",
+    "0"
+  ],
+  "reason": "OHLC must satisfy 0 < low <= open/close <= high. Replay is refused instead of altering source data."
+}

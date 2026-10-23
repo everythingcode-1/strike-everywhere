@@ -1,0 +1,20 @@
+export const GHOST_SCHEMA_VERSION = 1;
+export const GHOST_CALC_VERSION = 'ghost-1';
+export const GHOST_RULES_VERSION = 'exchangeInfo-1';
+export const LEDGER_SCHEMA_VERSION = 1;
+
+export const MARKET_SOURCE_MAX_AGE_MS = 15_000;
+export const MARKET_SOURCE_MAX_FUTURE_MS = 5_000;
+export const GHOST_RULES_TTL_MS = 5 * 60_000;
+export const MONITORING_GAP_MS = 10 * 60_000;
+export const MAX_CLAIM_CHARS = 4_000;
+export const MAX_CLAIM_CANDIDATES = 8;
+export const DEFAULT_FEE_RATE = '0.0005';
+export const MAX_FEE_RATE = '0.01';
+export const MAX_LEVERAGE = 100;
+export const TYPESAFE_ORIGIN = 'https://api.typesafe.ai';
+export const OPENROUTER_ORIGIN = 'https://openrouter.ai';
+export const OPENROUTER_CHAT_URL = `${OPENROUTER_ORIGIN}/api/v1/chat/completions`;
+export const OPENROUTER_MODEL = 'jev-latest';
+export const JEV_MODEL = 'jev-latest';
+export const JEV_TIMEOUT_MS = 20_000;

@@ -1,0 +1,60 @@
+{
+  "testedAt": "2026-10-23T11:28:25.104Z",
+  "transport": "OpenRouter System One",
+  "permissionTest": "Host pregranted in isolated test manifest; native optional-permission dialog not exercised",
+  "results": [
+    {
+      "input": "Bitcoin will rise over the next seven days.",
+      "analysis": {
+        "status": "ready",
+        "direction": "bullish",
+        "testability": "testable",
+        "suggestedSymbols": [
+          "BTC-USD"
+        ],
+        "summary": "The claim argues the asset should rise. It has a clear outcome a market move could test. Model confidence: direction 100%, testability 100%. This is classification confidence, not the probability of a profitable trade.",
+        "errorCode": null,
+        "analyzedAt": 1792754903544,
+        "provider": "openrouter",
+        "model": "typesafe/jev-1.14-20261014"
+      },
+      "resultText": "BULLISH\nTESTABLE\n\nThe claim argues the asset should rise. It has a clear outcome a market move could test. Model confidence: direction 100%, testability 100%. This is classification confidence, not the probability of a profitable trade.\n\nSUGGESTED SETUP\n\nLong BTC\n\nOpenRouter · typesafe/jev-1.14-20261014 · 06:28 PM"
+    },
+    {
+      "input": "Prakiraan Mingguan Bitcoin: BTC Memperpanjang Pullback saat Arus Masuk ETF Bertabrakan dengan Sentimen Risk-Off",
+      "analysis": {
+        "status": "ready",
+        "direction": "bearish",
+        "testability": "partially_specified",
+        "suggestedSymbols": [
+          "BTC-USD"
+        ],
+        "summary": "The claim argues the asset should fall. It is only partly specified, so any test would be approximate. Model confidence: direction 95%, testability 94%. This is classification confidence, not the probability of a profitable trade.",
+        "errorCode": null,
+        "analyzedAt": 1792754904312,
+        "provider": "openrouter",
+        "model": "typesafe/jev-1.14-20261014"
+      },
+      "resultText": "BEARISH\nPARTLY SPECIFIED\n\nThe claim argues the asset should fall. It is only partly specified, so any test would be approximate. Model confidence: direction 95%, testability 94%. This is classification confidence, not the probability of a profitable trade.\n\nSUGGESTED SETUP\n\nShort BTC\n\nChoose a time window and an observable price outcome before treating this as a testable prediction.\n\nOpenRouter · typesafe/jev-1.14-20261014 · 06:28 PM"
+    },
+    {
+      "input": "Bitcoin",
+      "analysis": {
+        "status": "ready",
+        "direction": "non_trading",
+        "testability": "not_testable",
+        "suggestedSymbols": [
+          "BTC-USD"
+        ],
+        "summary": "The text is not a tradeable market claim. It has no observable outcome a market move could test. Model confidence: direction 42%, testability 100%. This is classification confidence, not the probability of a profitable trade.",
+        "errorCode": null,
+        "analyzedAt": 1792754905091,
+        "provider": "openrouter",
+        "model": "typesafe/jev-1.14-20261014"
+      },
+      "resultText": "NOT A MARKET CLAIM\nNOT TESTABLE\n\nThe text is not a tradeable market claim. It has no observable outcome a market move could test. Model confidence: direction 42%, testability 100%. This is classification confidence, not the probability of a profitable trade.\n\nSUGGESTED SETUP\n\nUse BTC\n\nSelect a complete sentence expressing a market view; an asset name alone is not a prediction.\n\nOpenRouter · typesafe/jev-1.14-20261014 · 06:28 PM"
+    }
+  ],
+  "keyCleared": true,
+  "pageErrors": []
+}

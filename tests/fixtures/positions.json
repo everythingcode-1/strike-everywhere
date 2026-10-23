@@ -1,0 +1,57 @@
+{
+  "note": "Algebraic regression cases, not real Strike position responses. The short expected value was corrected on 2026-10-22 using signed-size equity = maintenance. An unqualified GET /v2/positions returned 401 and requested auth OR an account selector; selected public-address access has not been established. Three real position comparisons remain outstanding. Never store real account identifiers here.",
+  "fetchedAt": "2026-10-20",
+  "cases": [
+    {
+      "symbol": "BTC-USD",
+      "side": "long",
+      "entryPrice": "81591",
+      "sizeUsd": "5000",
+      "leverage": "10",
+      "quotePrecision": 8,
+      "tiers": [
+        { "maxNotional": "10000", "mmr": "0.004", "maintenanceAmount": "0", "maxLeverage": 100 },
+        { "maxNotional": "50000", "mmr": "0.004", "maintenanceAmount": "0", "maxLeverage": 75 },
+        { "maxNotional": "100000", "mmr": "0.004", "maintenanceAmount": "0", "maxLeverage": 50 }
+      ],
+      "expected": {
+        "liquidationPrice": "73726.807228915662651",
+        "maintenanceMargin": "20"
+      }
+    },
+    {
+      "symbol": "ETH-USD",
+      "side": "short",
+      "entryPrice": "2393.3",
+      "sizeUsd": "5000",
+      "leverage": "20",
+      "quotePrecision": 8,
+      "tiers": [
+        { "maxNotional": "10000", "mmr": "0.004", "maintenanceAmount": "0", "maxLeverage": 100 },
+        { "maxNotional": "25000", "mmr": "0.004", "maintenanceAmount": "0", "maxLeverage": 75 },
+        { "maxNotional": "50000", "mmr": "0.004", "maintenanceAmount": "0", "maxLeverage": 50 }
+      ],
+      "expected": {
+        "liquidationPrice": "2502.9531872509960159",
+        "maintenanceMargin": "20"
+      }
+    },
+    {
+      "symbol": "TSLA-USD",
+      "side": "long",
+      "entryPrice": "365.82176515",
+      "sizeUsd": "5000",
+      "leverage": "10",
+      "quotePrecision": 8,
+      "tiers": [
+        { "maxNotional": "100000", "mmr": "0.02", "maintenanceAmount": "0", "maxLeverage": 20 },
+        { "maxNotional": "150000", "mmr": "0.02", "maintenanceAmount": "0", "maxLeverage": 15 },
+        { "maxNotional": "250000", "mmr": "0.025", "maintenanceAmount": "750", "maxLeverage": 15 }
+      ],
+      "expected": {
+        "liquidationPrice": "335.95876391326530612",
+        "maintenanceMargin": "100"
+      }
+    }
+  ]
+}

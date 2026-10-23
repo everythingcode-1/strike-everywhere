@@ -1,0 +1,46 @@
+[
+  {
+    "path": "src/ghost/service.ts",
+    "sha256": "dcad38046738bc63561ec6204197d1ab7799317ac0a5bef53929263279643c9c"
+  },
+  {
+    "path": "src/ghost/execution.ts",
+    "sha256": "ba7f7d243585f9498c3244d917c753eb50cd7a859c2fcd716d48c061e1b92b02"
+  },
+  {
+    "path": "src/ghost/accounting.ts",
+    "sha256": "f7a8e51e3affa2646dc135f853dbd5964e72ff36bb6c32edab3df37ee1f83def"
+  },
+  {
+    "path": "src/ghost/store.ts",
+    "sha256": "61150f10ae80cdb65aff803fd24c1b86075358e2a0b53e322de5b3cc3a7f9064"
+  },
+  {
+    "path": "src/popup/ghost-ui.ts",
+    "sha256": "e41ac9c1c0e032ab392828162f1f1fe6a919cbee996ca446909e1913b2351646"
+  },
+  {
+    "path": "src/background/index.ts",
+    "sha256": "66e2be1d06be8c163d12957b8c3c002dec19a7df1ae728ab315de94f5e14c9bd"
+  },
+  {
+    "path": "src/jev/client.ts",
+    "sha256": "34e034dad5c91e9e84f14274e543a5d1554e38ce8055ad936a9a5ee5954c32f3"
+  },
+  {
+    "path": "src/jev/keys.ts",
+    "sha256": "05ddc8b940ddc72b66857210d0c1cc574f372602fd3e17023bb3e2ba3c16ec82"
+  },
+  {
+    "path": "scripts/verify-browser.mjs",
+    "sha256": "5cc778327e0c5ff1e56c208d95e6ad83fcd089e378ea980ac49815de295e878e"
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "da52d6db4f6f788ea9a866d2caa992c8b7eb7e413451db9b4741f363141dd622"
+  },
+  {
+    "path": "manifest.json",
+    "sha256": "4ecd0c3913ce9b44946b3c8b9b0038c6e6f240893d92a8d87ecf9bc4d8962f68"
+  }
+]

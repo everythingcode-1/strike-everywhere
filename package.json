@@ -1,0 +1,41 @@
+{
+  "name": "strike-everywhere",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "gen:symbols": "node scripts/gen-symbols.mjs",
+    "demo": "node demo/serve.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.538",
+    "@remotion/renderer": "^4.0.538",
+    "@typesafe-ai/sdk": "0.7.0",
+    "decimal.js": "^10.5.0",
+    "idb-keyval": "^6.2.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.538"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.2.0",
+    "@types/chrome": "^0.0.287",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^2.1.9"
+  },
+  "description": "A Chrome MV3 extension that brings Strike market data to the page you are reading, turns a selected claim into a locally stored **virtual** trade, and lets you test a hypothetical position against a 30-day historical price scenario. No real orders, no wallet, no account.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": ""
+}

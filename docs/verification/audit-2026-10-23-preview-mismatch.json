@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "mark": "100",
+  "bestBid": "95",
+  "bestAsk": "105",
+  "quantity": "1",
+  "entryPrice": "105",
+  "previewNetAtEntry": "-0.105",
+  "immediateGross": "-5",
+  "immediateNet": "-5.1025",
+  "entryFee": "0.0525",
+  "previewExitFee": "0.0525",
+  "summaryExitFee": "0.05"
+}

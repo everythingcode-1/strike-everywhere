@@ -1,0 +1,26 @@
+
+> strike-everywhere@0.1.0 build
+> vite build
+
+vite v6.4.4 building for production...
+transforming...
+✓ 45 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/service-worker-loader.js                    0.04 kB
+dist/assets/index.ts-loader-B_UP4Dzd.js          0.34 kB
+dist/assets/icons/strike-everywhere-16.png       0.67 kB
+dist/assets/strike-everywhere-32-BT6dw6s_.png    1.54 kB
+dist/assets/icons/strike-everywhere-32.png       1.54 kB
+dist/manifest.json                               1.63 kB │ gzip:  0.65 kB
+dist/assets/icons/strike-everywhere-48.png       2.54 kB
+dist/src/popup/index.html                       10.58 kB │ gzip:  3.15 kB
+dist/assets/strike-everywhere-128-CBNNkrip.png  12.05 kB
+dist/assets/icons/strike-everywhere-128.png     12.05 kB
+dist/assets/index-vLt5V8lo.css                  12.90 kB │ gzip:  3.04 kB
+dist/assets/margin-1ROJkvM5.js                  12.19 kB │ gzip:  4.03 kB
+dist/assets/index.html-DkNH4oII.js              26.22 kB │ gzip:  8.70 kB
+dist/assets/decimal-DUCnnpZd.js                 32.91 kB │ gzip: 13.36 kB
+dist/assets/index.ts-B1_MAyEi.js                50.76 kB │ gzip: 16.88 kB
+dist/assets/index.ts-Cd3m9zt-.js                63.26 kB │ gzip: 21.23 kB
+✓ built in 2.83s

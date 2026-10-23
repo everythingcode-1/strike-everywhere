@@ -1,0 +1,55 @@
+{
+  "desktop": {
+    "title": "Strike Everywhere | Market data in the page you are reading",
+    "description": "A Chrome extension that turns listed tickers into live Strike market cards, then tests a virtual position against 30 days of mark prices. No wallet, no orders, no telemetry.",
+    "canonical": "https://strike-everywhere.example/",
+    "h1": 1,
+    "h2": 8,
+    "jsonLd": true,
+    "anchors": 22,
+    "missingAnchors": [],
+    "images": 7,
+    "brokenImages": [],
+    "overflow": 0,
+    "bodyHeight": 7012
+  },
+  "mobile": {
+    "title": "Strike Everywhere | Market data in the page you are reading",
+    "description": "A Chrome extension that turns listed tickers into live Strike market cards, then tests a virtual position against 30 days of mark prices. No wallet, no orders, no telemetry.",
+    "canonical": "https://strike-everywhere.example/",
+    "h1": 1,
+    "h2": 8,
+    "jsonLd": true,
+    "anchors": 22,
+    "missingAnchors": [],
+    "images": 7,
+    "brokenImages": [],
+    "overflow": 0,
+    "bodyHeight": 10954
+  },
+  "narrow": {
+    "title": "Strike Everywhere | Market data in the page you are reading",
+    "description": "A Chrome extension that turns listed tickers into live Strike market cards, then tests a virtual position against 30 days of mark prices. No wallet, no orders, no telemetry.",
+    "canonical": "https://strike-everywhere.example/",
+    "h1": 1,
+    "h2": 8,
+    "jsonLd": true,
+    "anchors": 22,
+    "missingAnchors": [],
+    "images": 7,
+    "brokenImages": [],
+    "overflow": 0,
+    "bodyHeight": 11784
+  },
+  "checks": {
+    "menuVisible": true,
+    "menuClosedAfterLink": true,
+    "faqOpen": true,
+    "installVisible": true,
+    "riskVisible": true,
+    "copyButtonVisible": true,
+    "clipboardText": "npm install && npm run build"
+  },
+  "errors": [],
+  "consoleErrors": []
+}

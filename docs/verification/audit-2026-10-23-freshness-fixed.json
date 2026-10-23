@@ -1,0 +1,7 @@
+{
+  "realMainnetTradeInCleanProfile": true,
+  "pageClockAdvancedMs": 20000,
+  "before": "Within 15 seconds (0s old)",
+  "after": "Stale — 16s old; refresh before closing",
+  "note": "No network refresh performed; the freshness label uses source time and ages with the page clock."
+}

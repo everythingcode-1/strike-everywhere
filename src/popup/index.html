@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strike Everywhere</title>
+    <link rel="icon" type="image/png" href="../../assets/icons/strike-everywhere-32.png" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="header-row">
+          <div class="product-identity"><img class="brand-mark" src="../../assets/icons/strike-everywhere-128.png" alt="" width="36" height="36"><h1>Strike <span>Everywhere</span></h1></div>
+          <details class="utility-menu" id="utility-menu">
+            <summary aria-label="Settings and receipts" title="Settings and receipts">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4l.6 2.5 2.2 1.3 2.5-.8 2 3.4-1.9 1.7v2.6l1.9 1.7-2 3.4-2.5-.8-2.2 1.3L14 22h-4l-.6-2.5-2.2-1.3-2.5.8-2-3.4 1.9-1.7v-2.6L2.7 9.6l2-3.4 2.5-.8 2.2-1.3L10 2Z"/><circle cx="12" cy="12" r="3.3"/></svg>
+            </summary>
+            <nav class="utility-pages" aria-label="Settings and records">
+              <button type="button" data-tab="settings">Settings</button>
+              <button type="button" data-tab="receipts">Receipts</button>
+            </nav>
+          </details>
+        </div>
+        <p class="tagline">Markets, in context.</p>
+        <div class="network"><span class="network-label">Data network</span><span id="data-source"></span></div>
+      </header>
+
+      <nav class="app-nav" aria-label="Sections">
+        <button type="button" data-tab="discover" aria-current="page">Discover</button>
+        <button type="button" data-tab="markets">Markets</button>
+        <button type="button" data-tab="trades">Ghost Trades</button>
+      </nav>
+
+      <p id="claim-status" class="banner" role="status" aria-live="polite" hidden></p>
+
+      <section class="view" id="view-discover" aria-labelledby="discover-title">
+        <div class="view-head">
+          <h2 id="discover-title">Discover</h2>
+          <p>Turn a selected claim into a virtual trade. No real orders, no wallet.</p>
+        </div>
+
+        <section id="claim-card" class="claim-card" aria-labelledby="claim-title" hidden>
+          <div class="claim-meta"><span id="claim-source"></span><time id="claim-time"></time></div>
+          <h3 id="claim-title" tabindex="-1">Selected claim</h3>
+          <blockquote id="claim-text"></blockquote>
+          <div id="claim-candidates" class="chips" role="group" aria-label="Detected Strike markets"></div>
+          <p class="hint">Candidates are verified against Strike. A highlighted chip only selects the market; it does not create a trade.</p>
+        </section>
+
+        <section class="panel jev-panel" aria-labelledby="jev-title">
+          <h3 id="jev-title">AI analysis <span class="optional">optional</span></h3>
+          <p id="jev-status" class="hint">AI analysis is not configured. Choose the market and direction manually.</p>
+          <div id="jev-result" class="jev-result" role="status" hidden></div>
+          <label class="consent" for="jev-consent">
+            <input type="checkbox" id="jev-consent" />
+            <span><strong>Send the selected claim to your chosen AI provider.</strong> Only the claim text and verified Strike market names are sent.</span>
+          </label>
+          <button type="button" id="jev-analyze" class="btn btn-secondary jev-analyze" aria-describedby="jev-status" disabled>Analyze with Jev</button>
+          <p class="hint">An AI result never creates a trade and never replaces the Strike market check.</p>
+        </section>
+
+        <form id="ghost-form" class="panel" novalidate>
+          <h3>Manual virtual trade</h3>
+          <div class="field">
+            <label for="market-select">Strike market</label>
+            <select id="market-select" name="symbol" required></select>
+          </div>
+          <fieldset class="field">
+            <legend>Side</legend>
+            <div class="segmented">
+              <label><input type="radio" name="side" value="long" checked /> Long</label>
+              <label><input type="radio" name="side" value="short" /> Short</label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="input-mode">Size input</label>
+            <select id="input-mode">
+              <option value="collateral">Virtual collateral</option>
+              <option value="notional">Position notional</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="amount" id="amount-label">Virtual collateral (USDT)</label>
+            <input id="amount" inputmode="decimal" value="100" required />
+          </div>
+          <div class="grid-2">
+            <div class="field">
+              <label for="leverage">Leverage</label>
+              <input id="leverage" type="number" min="1" max="100" step="1" value="10" required />
+            </div>
+            <div class="field">
+              <label for="fee">Fee assumption (% per side)</label>
+              <input id="fee" inputmode="decimal" value="0.05" required />
+            </div>
+          </div>
+          <p class="hint">Collateral mode: notional = collateral × leverage. Notional mode: initial margin = notional ÷ leverage. Fees are virtual assumptions, not your Strike account fee.</p>
+          <button type="submit" id="preview" class="btn btn-primary">Review simulation</button>
+          <div id="preview-result" class="preview" hidden></div>
+          <button type="button" id="create-trade" class="btn btn-primary" hidden>Create virtual trade</button>
+          <p id="form-error" class="error" role="alert" hidden></p>
+        </form>
+      </section>
+
+      <section class="view" id="view-markets" aria-labelledby="markets-title" hidden>
+        <div class="view-head">
+          <h2 id="markets-title">Markets</h2>
+          <p>Public Strike discovery. Nothing here places an order.</p>
+        </div>
+        <section class="watchlist" id="watchlist" hidden>
+          <div class="watchlist-head">
+            <div><h3>Market discovery</h3><p>Explore what's moving on Strike.</p></div>
+            <button id="watchlist-refresh" type="button" aria-label="Refresh market data">↻</button>
+          </div>
+          <div class="market-views" role="group" aria-label="Market view">
+            <button type="button" data-view="movers" aria-pressed="true">24h movers</button>
+            <button type="button" data-view="funding" aria-pressed="false">Funding</button>
+          </div>
+          <div id="watchlist-body" role="status" aria-live="polite">Loading market data…</div>
+          <p class="market-caption">Public market data. Links open mainnet Strike.</p>
+        </section>
+      </section>
+
+      <section class="view" id="view-trades" aria-labelledby="trades-title" hidden>
+        <div class="view-head">
+          <h2 id="trades-title">Ghost Trades</h2>
+          <p>Live virtual trade — no real funds. Entries are immutable snapshots.</p>
+        </div>
+        <button type="button" id="trades-refresh" class="btn btn-secondary">Refresh list</button>
+        <div id="trade-list" class="record-list" role="status" aria-live="polite"></div>
+        <div id="trade-detail" class="record-detail" aria-live="polite" hidden></div>
+      </section>
+
+      <section class="view" id="view-receipts" aria-labelledby="receipts-title" hidden>
+        <div class="view-head">
+          <h2 id="receipts-title">Receipts</h2>
+          <p>Local evidence records. Export is a local JSON download.</p>
+        </div>
+        <div id="receipt-list" class="record-list" role="status" aria-live="polite"></div>
+        <div id="receipt-detail" class="record-detail" aria-live="polite" hidden></div>
+      </section>
+
+      <section class="view" id="view-settings" aria-labelledby="settings-title" hidden>
+        <div class="view-head">
+          <h2 id="settings-title">Settings</h2>
+          <p>Detection, provider key and simulation assumptions.</p>
+        </div>
+
+        <section class="panel" aria-labelledby="jev-key-title">
+          <h3 id="jev-key-title">AI analysis key</h3>
+          <p id="jev-key-status" class="hint">Loading key status…</p>
+          <div class="field">
+            <label for="ai-provider">Provider</label>
+            <select id="ai-provider">
+              <option value="typesafe">TypeSafe (Jev)</option>
+              <option value="openrouter">OpenRouter</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="jev-key">API key (saved on this device)</label>
+            <input id="jev-key" type="password" autocomplete="off" spellcheck="false" />
+          </div>
+          <div class="field" id="ai-model-field" hidden>
+            <label for="ai-model">OpenRouter model ID</label>
+            <input id="ai-model" autocomplete="off" spellcheck="false" value="jev-latest" />
+          </div>
+          <div class="actions">
+            <button type="button" id="jev-key-save" class="btn btn-primary">Save key</button>
+            <button type="button" id="jev-key-clear" class="btn btn-secondary">Clear key</button>
+          </div>
+          <p class="hint">Stored in <code>chrome.storage.local</code> with trusted-context access. It stays on this device until you clear it. Saving requests optional access to the selected provider's API host.</p>
+          <p class="hint" id="ai-key-hint">Jev is available through TypeSafe or OpenRouter. OpenRouter defaults to jev-latest.</p>
+          <p class="hint">A captured claim keeps the page path without query, fragment or credentials. The panel shows only the source domain; a receipt export includes the sanitized URL.</p>
+          <p id="key-error" class="error" role="alert" hidden></p>
+        </section>
+
+        <details class="settings" open>
+          <summary>Detection settings</summary>
+          <label class="row" for="enabled">
+            <span class="setting-copy"><strong>Extension enabled</strong><small>Show ticker cards while you read.</small></span>
+            <input id="enabled" type="checkbox" />
+          </label>
+          <label class="row" for="all-sites">
+            <span class="setting-copy"><strong>Detect on all sites</strong><small>Extend beyond the finance allowlist.</small></span>
+            <input id="all-sites" type="checkbox" />
+          </label>
+          <div class="row site-row" id="site-row" hidden>
+            <span class="setting-copy"><strong>This site</strong><small id="site-name">Current page</small></span>
+            <input id="site-toggle" type="checkbox" aria-label="Enable on this site" />
+          </div>
+          <p class="hint" id="hint"></p>
+        </details>
+
+        <section class="panel" aria-labelledby="assumptions-title">
+          <h3 id="assumptions-title">Simulation assumptions</h3>
+          <p class="hint">Fees default to 0.05% per side and are assumptions, not your Strike account fee. Funding is not reconstructed, so net PnL is labelled as excluding unknown funding. Liquidation estimate is unavailable — risk scenario only. Monitoring runs when the panel refreshes; browser closure creates a visible gap.</p>
+        </section>
+      </section>
+
+      <footer>
+        <p>Data from Strike. Not financial advice. Virtual trades use no real funds.</p>
+        <details><summary>Privacy &amp; model notes</summary><p>No accounts, telemetry, or order placement. Stress tests are experimental estimates, not validated against live Strike positions. Market snapshots are not execution guarantees. Selected text leaves the browser only when you press Analyze with Jev after ticking the disclosure.</p></details>
+      </footer>
+    </main>
+    <script type="module" src="./index.ts"></script>
+  </body>
+</html>

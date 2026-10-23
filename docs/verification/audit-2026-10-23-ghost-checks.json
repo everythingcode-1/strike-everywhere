@@ -1,0 +1,44 @@
+{
+  "network": "mainnet",
+  "symbol": "BTC-USD",
+  "preview": "Fill previewMarketBTC · USDTEntry VWAP$81,214.00Quantity0.00049Filled notional$39.79Best bid / ask$81,212.00 / $81,214.00Quote impact0.0000%Allocated collateral$20.00Entry fee$0.02Estimated exit fee$0.02Net at entry (before funding)-$0.04Mark source: 10/23/2026, 12:30:30 AM · Book source: 10/23/2026, 12:30:30 AMMarket entry, full fill only. The displayed book is assumed executable.Creating the trade takes a fresh quote; the accepted fill may differ from this preview.Fees are assumptions, not your Strike account fee.Funding not reconstructed; PnL excludes unknown funding.Liquidation estimate unavailable — risk scenario only.",
+  "entryPrice": "$81,214.00",
+  "status": "closed",
+  "narrowViewport": {
+    "width": 320,
+    "scrollWidth": 320
+  },
+  "receipt": {
+    "closed": true,
+    "fundingCashFlow": null,
+    "netExcludingUnknownFunding": "-0.04077437",
+    "gaps": 0
+  },
+  "contextMenu": {
+    "permission": true,
+    "realRightClickVerified": false
+  },
+  "claim": {
+    "capturedUi": true,
+    "missingKeyFallback": "missing_key",
+    "candidates": [
+      "BTC-USD",
+      "TSLA-USD"
+    ],
+    "snapshotCopied": true,
+    "duplicateCreateReusedTrade": true,
+    "insufficientDepthRejected": "INSUFFICIENT_DEPTH",
+    "invalidLeverageRejected": "INVALID_INPUT",
+    "concurrentRefreshCloseClosedOnce": true
+  },
+  "jev": {
+    "configured": false,
+    "liveCallVerified": false
+  },
+  "jevKeyStorage": {
+    "saved": true,
+    "statusHidesKey": true,
+    "cleared": true
+  },
+  "browserErrors": []
+}

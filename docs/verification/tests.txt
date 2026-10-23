@@ -1,0 +1,36 @@
+﻿
+> strike-everywhere@0.1.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/Users/HP/strike-everywhere[39m
+
+ [32mΓ£ô[39m tests/ghost-accounting.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 10[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-execution.test.ts [2m([22m[2m12 tests[22m[2m)[22m[90m 16[2mms[22m[39m
+ [32mΓ£ô[39m tests/slippage.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 9[2mms[22m[39m
+ [32mΓ£ô[39m tests/margin.test.ts [2m([22m[2m24 tests[22m[2m)[22m[90m 18[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-resolve.test.ts [2m([22m[2m7 tests[22m[2m)[22m[90m 10[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-capture-order.test.ts [2m([22m[2m2 tests[22m[2m)[22m[90m 9[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-preview.test.ts [2m([22m[2m4 tests[22m[2m)[22m[90m 16[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-close-gap.test.ts [2m([22m[2m3 tests[22m[2m)[22m[90m 21[2mms[22m[39m
+ [32mΓ£ô[39m tests/api.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 429[2mms[22m[39m
+   [33m[2mΓ£ô[22m[39m public market data boundary[2m > [22mrequests exactly 30 days of completed minutes in 29 bounded pages [33m416[2mms[22m[39m
+ [32mΓ£ô[39m tests/market-extras.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 13[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-market.test.ts [2m([22m[2m3 tests[22m[2m)[22m[90m 12[2mms[22m[39m
+ [32mΓ£ô[39m tests/detect.test.ts [2m([22m[2m6 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32mΓ£ô[39m tests/watchlist.test.ts [2m([22m[2m3 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32mΓ£ô[39m tests/jev-questions.test.ts [2m([22m[2m3 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32mΓ£ô[39m tests/presentation.test.ts [2m([22m[2m5 tests[22m[2m)[22m[90m 9[2mms[22m[39m
+ [32mΓ£ô[39m tests/ticket-reader.test.ts [2m([22m[2m4 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-messages.test.ts [2m([22m[2m4 tests[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32mΓ£ô[39m tests/replay.test.ts [2m([22m[2m16 tests[22m[2m)[22m[33m 763[2mms[22m[39m
+   [33m[2mΓ£ô[22m[39m 30-day evidence[2m > [22mrejects missing, duplicate, stale and malformed candles [33m495[2mms[22m[39m
+ [32mΓ£ô[39m tests/ghost-freshness.test.ts [2m([22m[2m4 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32mΓ£ô[39m tests/background.test.ts [2m([22m[2m5 tests[22m[2m)[22m[33m 1251[2mms[22m[39m
+   [33m[2mΓ£ô[22m[39m simulation message integration[2m > [22mpreserves entry slippage against a mark-anchored historical path [33m452[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m20 passed[39m[22m[90m (20)[39m
+[2m      Tests [22m [1m[32m135 passed[39m[22m[90m (135)[39m
+[2m   Start at [22m 01:05:45
+[2m   Duration [22m 1.83s[2m (transform 1.54s, setup 0ms, collect 3.46s, tests 2.62s, environment 6ms, prepare 3.22s)[22m
+

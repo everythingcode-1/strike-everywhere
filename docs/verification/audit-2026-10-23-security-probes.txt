@@ -1,0 +1,16 @@
+
+ RUN  v2.1.9 C:/Users/HP/strike-everywhere
+
+stdout | .superpowers/audit-security/probe.test.ts > PROOF: earlier slow capture overrides the newer selected claim
+capture order FIRST then SECOND; completion SECOND then FIRST; final pending=FIRST
+
+ ✓ .superpowers/audit-security/probe.test.ts (2 tests) 10ms
+stdout | .superpowers/audit-security/probe.test.ts > PROOF: direct close after one day erases the unobserved monitoring interval
+86400000ms without monitoring; closed receipt gaps=0; events=created,close_requested,closed_virtual; closed refresh still gaps=0
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  00:34:57
+   Duration  630ms (transform 117ms, setup 0ms, collect 233ms, tests 10ms, environment 0ms, prepare 146ms)
+

@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Strike Everywhere",
+  "version": "0.1.0",
+  "icons": {
+    "16": "assets/icons/strike-everywhere-16.png",
+    "32": "assets/icons/strike-everywhere-32.png",
+    "48": "assets/icons/strike-everywhere-48.png",
+    "128": "assets/icons/strike-everywhere-128.png"
+  },
+  "description": "Detects tickers on the page, opens a Strike market card, and keeps local virtual trades with receipts and a 30-day risk scenario.",
+  "permissions": ["storage", "activeTab", "sidePanel", "contextMenus"],
+  "host_permissions": [
+    "https://api.strikefinance.org/*",
+    "https://api-v2-testnet.strikefinance.org/*"
+  ],
+  "optional_host_permissions": [
+    "https://api.typesafe.ai/*",
+    "https://openrouter.ai/*"
+  ],
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Strike Everywhere",
+    "default_icon": {
+      "16": "assets/icons/strike-everywhere-16.png",
+      "32": "assets/icons/strike-everywhere-32.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "src/popup/index.html"
+  },
+  "minimum_chrome_version": "116",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["src/content/index.ts"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-10-20T05:59:46.428Z",
+  "source": "https://api.strikefinance.org/price/v2/exchangeInfo",
+  "symbols": [
+    {
+      "baseAsset": "AAOI",
+      "symbol": "AAOI-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "ADA",
+      "symbol": "ADA-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "BNB",
+      "symbol": "BNB-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "BTC",
+      "symbol": "BTC-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "COIN",
+      "symbol": "COIN-USD",
+      "quotePrecision": 8,
+      "highConfidence": false
+    },
+    {
+      "baseAsset": "CRCL",
+      "symbol": "CRCL-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "CXMT",
+      "symbol": "CXMT-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "DRAM",
+      "symbol": "DRAM-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "ETH",
+      "symbol": "ETH-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "GOOGL",
+      "symbol": "GOOGL-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "HYPE",
+      "symbol": "HYPE-USD",
+      "quotePrecision": 8,
+      "highConfidence": false
+    },
+    {
+      "baseAsset": "MINIMAX",
+      "symbol": "MINIMAX-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "MU",
+      "symbol": "MU-USD",
+      "quotePrecision": 8,
+      "highConfidence": false
+    },
+    {
+      "baseAsset": "NAS100",
+      "symbol": "NAS100-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "NEAR",
+      "symbol": "NEAR-USD",
+      "quotePrecision": 8,
+      "highConfidence": false
+    },
+    {
+      "baseAsset": "NIGHT",
+      "symbol": "NIGHT-USD",
+      "quotePrecision": 8,
+      "highConfidence": false
+    },
+    {
+      "baseAsset": "NVDA",
+      "symbol": "NVDA-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "PUMP",
+      "symbol": "PUMP-USD",
+      "quotePrecision": 8,
+      "highConfidence": false
+    },
+    {
+      "baseAsset": "SKHYNIX",
+      "symbol": "SKHYNIX-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "SNDK",
+      "symbol": "SNDK-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "SOL",
+      "symbol": "SOL-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "SP500",
+      "symbol": "SP500-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "SPCX",
+      "symbol": "SPCX-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "TSLA",
+      "symbol": "TSLA-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "UNITREE",
+      "symbol": "UNITREE-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "WTI",
+      "symbol": "WTI-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "XAG",
+      "symbol": "XAG-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "XAU",
+      "symbol": "XAU-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "XRP",
+      "symbol": "XRP-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "ZEC",
+      "symbol": "ZEC-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    },
+    {
+      "baseAsset": "ZHIPU",
+      "symbol": "ZHIPU-USD",
+      "quotePrecision": 8,
+      "highConfidence": true
+    }
+  ]
+}

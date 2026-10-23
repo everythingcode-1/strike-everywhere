@@ -1,0 +1,7 @@
+{
+  "synthetic": true,
+  "maxQuantity": "1",
+  "rejectedQuantity": "2",
+  "smallCloseQuantity": "0.5",
+  "smallCloseStillAllowedBelowMinNotional": true
+}

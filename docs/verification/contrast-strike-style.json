@@ -1,0 +1,152 @@
+[
+  {
+    "foreground": "text",
+    "background": "bg",
+    "ratio": 18.05,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "text",
+    "background": "surface",
+    "ratio": 15.8,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "text",
+    "background": "raised",
+    "ratio": 13.7,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "muted",
+    "background": "bg",
+    "ratio": 8.47,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "muted",
+    "background": "surface",
+    "ratio": 7.41,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "muted",
+    "background": "raised",
+    "ratio": 6.43,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "positive",
+    "background": "bg",
+    "ratio": 13.9,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "positive",
+    "background": "surface",
+    "ratio": 12.16,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "positive",
+    "background": "raised",
+    "ratio": 10.55,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "danger",
+    "background": "bg",
+    "ratio": 6.35,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "danger",
+    "background": "surface",
+    "ratio": 5.56,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "danger",
+    "background": "raised",
+    "ratio": 4.82,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "warning",
+    "background": "bg",
+    "ratio": 12.25,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "warning",
+    "background": "surface",
+    "ratio": 10.72,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "warning",
+    "background": "raised",
+    "ratio": 9.3,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "ink",
+    "background": "mint",
+    "ratio": 11.52,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "ink",
+    "background": "accent-hover",
+    "ratio": 12.92,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "positive",
+    "background": "long-surface",
+    "ratio": 9.04,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "danger",
+    "background": "short-surface",
+    "ratio": 4.79,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "control",
+    "background": "bg",
+    "ratio": 3.97,
+    "minimum": 3
+  },
+  {
+    "foreground": "control",
+    "background": "surface",
+    "ratio": 3.48,
+    "minimum": 3
+  },
+  {
+    "foreground": "control",
+    "background": "raised",
+    "ratio": 3.02,
+    "minimum": 3
+  },
+  {
+    "foreground": "positive",
+    "background": "long-surface",
+    "ratio": 9.04,
+    "minimum": 3
+  },
+  {
+    "foreground": "danger",
+    "background": "short-surface",
+    "ratio": 4.79,
+    "minimum": 3
+  },
+  {
+    "foreground": "mint",
+    "background": "bg",
+    "ratio": 13.9,
+    "minimum": 3
+  }
+]

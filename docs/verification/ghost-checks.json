@@ -1,0 +1,53 @@
+{
+  "network": "mainnet",
+  "symbol": "BTC-USD",
+  "preview": "Fill previewMarketBTC · USDTEntry VWAP$81,767.00Quantity0.00048Filled notional$39.25Best bid / ask$81,765.00 / $81,767.00Quote impact0.0000%Allocated collateral$20.00Entry fee$0.02Estimated exit fee at mark$0.02Gross PnL at mark+$0.0006Estimated net at mark (before funding)-$0.04Mark source: 10/23/2026, 1:15:48 PM · Book source: 10/23/2026, 1:15:48 PM · Valuation basis: current mark, not an executable close.Market entry, full fill only. The displayed book is assumed executable.Creating the trade takes a fresh quote; the accepted fill may differ from this preview.Fees are assumptions, not your Strike account fee.Funding not reconstructed; PnL excludes unknown funding.Liquidation estimate unavailable — risk scenario only.",
+  "entryPrice": "$81,767.00",
+  "status": "closed",
+  "narrowViewport": {
+    "width": 320,
+    "scrollWidth": 320
+  },
+  "freshness": {
+    "before": "Within 15 seconds (0s old)",
+    "after": "Stale — 16s old; refresh before closing"
+  },
+  "captureNavigation": {
+    "activeTab": "discover",
+    "focusedId": "claim-title",
+    "claimText": "Runtime capture should open Discover and focus its heading."
+  },
+  "receipt": {
+    "closed": true,
+    "fundingCashFlow": null,
+    "netExcludingUnknownFunding": "-0.04020768",
+    "gaps": 0
+  },
+  "contextMenu": {
+    "permission": true,
+    "realRightClickVerified": false
+  },
+  "claim": {
+    "capturedUi": true,
+    "missingKeyFallback": "missing_key",
+    "candidates": [
+      "BTC-USD",
+      "TSLA-USD"
+    ],
+    "snapshotCopied": true,
+    "duplicateCreateReusedTrade": true,
+    "insufficientDepthRejected": "INSUFFICIENT_DEPTH",
+    "invalidLeverageRejected": "INVALID_INPUT",
+    "concurrentRefreshCloseClosedOnce": true
+  },
+  "jev": {
+    "configured": false,
+    "liveCallVerified": false
+  },
+  "jevKeyStorage": {
+    "saved": true,
+    "statusHidesKey": true,
+    "cleared": true
+  },
+  "browserErrors": []
+}

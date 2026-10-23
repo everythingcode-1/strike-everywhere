@@ -1,0 +1,20 @@
+:host,
+:root {
+  --se-bg: #0b0b0b;
+  --se-surface: #1b1b1b;
+  --se-raised: #272727;
+  --se-line: #2e2e2e;
+  --se-control: #707070;
+  --se-text: #f5f5f5;
+  --se-muted: #aaaaaa;
+  --se-mint: #36f5ae;
+  --se-accent-hover: #64ffc3;
+  --se-ink: #06251a;
+  --se-positive: #36f5ae;
+  --se-danger: #ff5475;
+  --se-warning: #f2c66d;
+  --se-long-surface: #18382c;
+  --se-short-surface: #3d1e27;
+  --se-font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: dark;
+}

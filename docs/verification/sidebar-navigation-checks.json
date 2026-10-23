@@ -1,0 +1,18 @@
+{
+  "primaryTabs": [
+    "Discover",
+    "Markets",
+    "Ghost Trades"
+  ],
+  "utilities": [
+    "Settings",
+    "Receipts"
+  ],
+  "keyboardEnter": true,
+  "escapeCoveredByControlledBrowser": true,
+  "selectionRestoresGearFocus": true,
+  "outsideClickCloses": true,
+  "emptyErrorHidden": true,
+  "narrowViewport": 320,
+  "horizontalOverflow": false
+}
