@@ -1,0 +1,10 @@
+import {bundle} from '@remotion/bundler';
+import {renderMedia,renderStill} from '@remotion/renderer';
+import {resolve} from 'node:path';
+import {execFileSync} from 'node:child_process';
+process.chdir(import.meta.dirname);
+const serveUrl=await bundle({entryPoint:resolve('index.jsx'),publicDir:resolve('public')});
+const common={serveUrl,composition:{id:'StrikeMotion',width:1920,height:1080,fps:30,durationInFrames:2265,props:{},defaultProps:{}},browserExecutable:'C:/Users/HP/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe'};
+await renderStill({...common,frame:345,output:resolve('out/friction.png')});
+await renderMedia({...common,frameRange:[224,445],codec:'h264',outputLocation:resolve('out/friction-fixed.mp4'),concurrency:8,x264Preset:'ultrafast',crf:18});
+console.log('Scene correction rendered.');

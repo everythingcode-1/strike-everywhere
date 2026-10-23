@@ -1,0 +1,17 @@
+import {bundle} from '@remotion/bundler';
+import {renderMedia,renderStill} from '@remotion/renderer';
+import {mkdir,copyFile,writeFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {resolve} from 'node:path';
+const root=resolve(import.meta.dirname);process.chdir(root);
+await mkdir('public',{recursive:true});await mkdir('out',{recursive:true});
+await copyFile('../assets/icons/strike-everywhere-128.png','public/logo.png');
+const serveUrl=await bundle({entryPoint:resolve('index.jsx'),publicDir:resolve('public')});
+const composition={id:'StrikeMotion',width:1920,height:1080,fps:30,durationInFrames:2265,props:{},defaultProps:{}};
+const common={serveUrl,composition,browserExecutable:'C:/Users/HP/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe'};
+for(const [name,frame] of [['opening',135],['friction',345],['closing',2160]])await renderStill({...common,frame,output:resolve(`out/${name}.png`)});
+await renderMedia({...common,codec:'h264',outputLocation:resolve('out/motion-silent.mp4'),concurrency:8,x264Preset:'ultrafast',crf:18,onProgress:({progress})=>{if(Math.round(progress*100)%20===0)process.stdout.write('.');}});
+execFileSync('ffmpeg',['-y','-loglevel','error','-i',resolve('out/motion-silent.mp4'),'-i','C:/Users/HP/Downloads/ElevenLabs_2026-10-23T11_36_21_Lauren - Friendly, Comforting and Soft_pvc_sp100_s50_sb75_v4.mp3','-c:v','copy','-c:a','aac','-b:a','192k','-shortest','-movflags','+faststart',resolve('out/strike-everywhere-demo.mp4')]);
+for(const [name,start,end] of [['intro',0,21.12],['outro',59.58,75.46775]])execFileSync('ffmpeg',['-y','-loglevel','error','-ss',String(start),'-i',resolve('out/strike-everywhere-demo.mp4'),'-t',String(end-start),'-c:v','libx264','-preset','ultrafast','-crf','18','-c:a','aac','-movflags','+faststart',resolve(`out/${name}.mp4`)]);
+await writeFile('out/EDIT-NOTES.txt','1920x1080, 30fps. Full timeline 75.47 seconds with supplied voice-over.\nINTRO 00:00.00–00:21.12\nSCREEN RECORDING SPACE 00:21.12–00:59.58 (plain black; replace visual track only, retain narration)\nOUTRO 00:59.58–00:75.47\nintro.mp4 and outro.mp4 include corresponding audio. motion-silent.mp4 has no audio.\nEnglish graphics match the supplied English voice-over. Automated speech timing was checked against pauses.\n');
+console.log('\nRendered full video, intro, outro, stills and edit notes.');

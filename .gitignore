@@ -5,3 +5,6 @@ dist/
 .env.*
 .DS_Store
 .superpowers/
+video-motion/node_modules/
+video-motion/out/*
+!video-motion/out/strike-everywhere-demo.mp4
