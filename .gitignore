@@ -8,3 +8,6 @@ dist/
 video-motion/node_modules/
 video-motion/out/*
 !video-motion/out/strike-everywhere-demo.mp4
+# Landing download assets.
+!landing/public/downloads/strike-everywhere-0.1.0-source.zip
+!landing/public/downloads/strike-everywhere-0.1.0-extension.zip
