@@ -21,7 +21,7 @@ export const siteConfig = {
   sourceArchive: "/downloads/strike-everywhere-0.1.0-source.zip",
   extensionArchive: "/downloads/strike-everywhere-0.1.0-extension.zip",
   sourceNote:
-    "No public repository URL is published yet. The source archive on this page contains the buildable extension source.",
+    "The source ZIP and built extension ZIP are ready to download. A Chrome Web Store listing is coming soon.",
 } as const;
 
 export const navLinks = [
